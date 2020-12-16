@@ -1,0 +1,40 @@
+TESTCASE_START=<?xml version="1.0" encoding="UTF-8" standalone="no"?>\r\n\
+			  <testCase failureBehaviour="Continue" id="0">\r\n\
+			    <summary/>\r\n\
+			    <steps>\r\n
+API_CALLS=<apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.DxMetadataLoader" name="DxMetadataLoader" testItemId="{ID}" title="Extract Salesforce translations=&gt;">\r\n\
+			        <arguments>\r\n\
+			          <argument id="connectionName">\r\n\
+			            <value class="value" valueClass="string">{CONNECTION_NAME}</value>\r\n\
+			          </argument>\r\n\
+			          <argument id="userName">\r\n\
+			            <value class="value" valueClass="string">{USER_NAME}</value>\r\n\
+			          </argument>\r\n\
+			          <argument id="environment">\r\n\
+			            <value class="value" valueClass="string">{ENVIRONMENT}</value>\r\n\
+			          </argument>\r\n\
+			          <argument id="lightningMode">\r\n\
+			            <value class="value" valueClass="string">{LIGHTNINGMODE}</value>\r\n\
+			          </argument>\r\n\
+			          <argument id="password">\r\n\
+			            <value class="value" valueClass="string">{PASSWORD}</value>\r\n\
+			          </argument>\r\n\
+			          <argument id="apiLoginUrl">\r\n\
+			            <value class="value" valueClass="string">{API_LOGIN_URL}</value>\r\n\
+			          </argument>\r\n\
+			          <argument id="userLoginUrl">\r\n\
+			            <value class="value" valueClass="string">{USER_LOGIN_URL}</value>\r\n\
+			          </argument>\r\n\
+			          <argument id="orgRefreshType">\r\n\
+			            <value class="value" valueClass="string">{ORG_REFRESH_TYPE}</value>\r\n\
+			          </argument>\r\n\
+			          <argument id="connectionRefreshType">\r\n\
+			            <value class="value" valueClass="string">{CONNECTION_REFRESH_TYPE}</value>\r\n\
+			          </argument>\r\n\
+			          <argument id="testProjectEnvironment">\r\n\
+			            <value class="value" valueClass="string">{TEST_PROJECT_ENVIRONMENT}</value>\r\n\
+			          </argument>\r\n\
+			        </arguments>\r\n\
+			      </apiCall>\r\n
+TESTCASE_END=</steps>\r\n\
+			  </testCase>\r\n
